@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="src/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<script>
+    $("document").ready(function () {
+        $("<div>Здрасти</div>").appendTo($("body"));
+        $(document).ready(function () {
+        })
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("a").click(function (event) {
+            alert("Link forbidden!");
+            event.preventDefault();
+        });
+    });
+</script>
+
+
+<button>ASSSSA</button>
+</body>
+</html>
